@@ -1,0 +1,110 @@
+/*TITLE*/
+.title {
+	position: relative;
+	height: 20vh;
+	width: 30vw;
+	left: 8vw;
+	padding: 0;
+	margin: 0;
+}
+
+.title-list {
+	position: relative;
+	height: 10vh;
+	top: 5vh;
+	width: 50vw;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+.title-list li {
+	display: inline-block;
+}
+
+.title-list h1 {
+	font-size: 5em;
+}
+
+
+/*MENU SECTION */
+.menu {
+	height: 80vh;
+	position: absolute;
+	width: 100vw;
+}
+
+.menu-list {
+	height: 60vh;
+	width: 90vw; 
+	position: relative;
+	left: 5vw;
+	margin:0;
+	padding: 0;
+}
+
+.menu-list li {
+	display: inline-block;
+}
+
+.menu-list h1 {
+	padding: 5%;
+	color: black;
+	background-color:rgba(255, 255, 255, 0.4);
+	width: auto;
+	width: 70%;
+	margin: 0;
+}
+
+#about-item:hover {
+	background-color: #ffffff !important;
+	opacity: 0.6 !important;
+}
+
+#projects-item:hover {
+	background-color: #ffffff !important;
+	opacity: 0.6 !important;
+}
+
+#experience-item:hover {
+	background-color: #ffffff !important;
+	opacity: 0.6 !important;
+}
+
+#education-item:hover {
+	background-color: #ffffff !important;
+	opacity: 0.6 !important;
+}
+
+
+#about-item {
+	background-image: url("../assets/img/about.jpg");
+	background-size: cover;
+	height: 60vh;
+	width: 20vw;
+	margin: 0 0.5vw 0 3vw;
+}
+
+#projects-item {
+	background-image: url("../assets/img/projects.jpg");
+	background-size: cover;
+	height: 60vh;
+	width: 20vw;
+	margin: 0 0.5vw 0 0.5vw;
+}
+
+#experience-item {
+	background-image: url("../assets/img/experience.jpg");
+	background-size: cover;
+	height: 60vh;
+	width: 20vw;
+	margin: 0 0.5vw 0 0.5vw;
+}
+
+#education-item {
+	background-image: url("../assets/img/education.jpg");
+	background-size: cover;
+	height: 60vh;
+	width: 20vw;
+	margin: 0 3vw 0 0.5vw;
+}
