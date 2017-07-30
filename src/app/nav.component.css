@@ -1,0 +1,57 @@
+.nav {
+	margin: 0;
+	padding: 0;
+	
+}
+
+#nav-title {
+	padding: 1%;
+	position: relative;
+	top: 1vh;
+}
+
+
+
+#nav-title li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#logo-title {
+	font-size: 2em;
+}
+
+.navigation a {
+	color: white;
+	font-size: 1.5em;
+}
+
+.navigation a:hover {
+	background-color: black;
+}
+
+.navigation a:visited {
+	background-color: black;
+}
+
+
+
+.icon-bar {
+	background-color: white;
+}
+
+.nav-item {
+	font-size: 1em;
+	padding: 0.5%;
+}
+
+
+#logo-title {
+	
+	font-size: 3em;
+}
+
+#mini-title {
+	font-size: 1.5em;
+}
