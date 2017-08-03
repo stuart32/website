@@ -5,9 +5,11 @@
 footer {
 	height: 15vh;
 	width: 100vw;
-	position: absolute;
+	position: fixed;
+	left: 0;
 	bottom: 0;
 	background-color: black;
+
 }
 
 .social-icon {
@@ -17,8 +19,7 @@ footer {
 }
 
 .social-list {
-	width: 30vw;
-	left: 35vw;
+	width: 100vw;
 	position: relative;
 	list-style: none;
 	padding: 0;

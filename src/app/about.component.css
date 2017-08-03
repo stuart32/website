@@ -20,15 +20,18 @@
 .profile-pic {
 	background-color: black;
 	border-radius: 50%;
+	padding: 0;
+	margin: 0;
+	float: right;
 }
 
 .info {
 	color: black;
 	position: relative;
-	top: 40vh;
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	vertical-align: middle;
 }
 
 .info li {
@@ -41,4 +44,29 @@
 
 .contact {
 	list-style: none;
+}
+
+.contact li img {
+	width: 50px;
+	height: 50px;
+}
+
+.contact-item li {
+	display: inline-block;
+	padding: 2%;
+}
+
+.about-text {
+	position: relative;
+	padding: 5%;
+	top: 5vh;
+	font-size: 1.2em;
+	height: auto;
+}
+
+.about-section {
+	position: relative;
+	top: 30vh;
+	height: 60vh;
+	background-color: white;
 }
