@@ -10,6 +10,7 @@ import { ProjectsComponent }  from './projects.component';
 import { ExperienceComponent }  from './experience.component';
 import { EducationComponent }  from './education.component';
 import { AppRoutingModule }     from './app-routing.module';
+import { EducationItemComponent }   from './education-item.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { AppRoutingModule }     from './app-routing.module';
     ProjectsComponent,
     ExperienceComponent,
     EducationComponent,
+    EducationItemComponent,
   ],
   imports: [
     BrowserModule,
